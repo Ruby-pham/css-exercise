@@ -11,7 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css.css" />
   </head>
   <body>
     <div id="container">
@@ -71,11 +71,8 @@
           <div class="nav_tools">
             <div class="language">
               <a href="#">
-                <span class="lan_1"
-                  ><img
-                    src="assets/images/global-removebg-preview.png"
-                    name="global"
-                /></span>
+                <span class="lang_1"
+                  ><i class="fa-solid fa-globe"></i></span>
                 <span class="lang_2"
                   >EN<i class="fa-solid fa-caret-down"></i>
                   <span class="lang_3">
@@ -119,18 +116,84 @@
         <div class="menu">
           <div class="menu_left">
             <a href="#"><i class="fa-solid fa-list"></i> All</a>
-            <a href="#">Medical Care</a>
-            <a href="#">Groceries</a>
-            <a href="#">Best Seller</a>
-            <a href="#">Amazon Basics</a>
-            <a href="#">Today's Deals</a>
-            <a href="#">Registry</a>
-            <a href="#">New Releases</a>
-            <a href="#">Prime</a>
-            <a href="#">Custommer Service</a>
-            <a href="#">Gifcards</a>
-            <a href="#">Sell</a>
+            <div class="sidebar">
+              <div class="sidebar_list">
+                <ul class="sb_list_title"><i class="fa-solid fa-user-plus"></i>Hello, Sign in</ul>
+                <ul class="sb_list_item">
+                  <li>Trending</li>
+                  <li><a href="#">Best Sellers</a></li>
+                  <li><a href="#">New Releases</a></li>
+                  <li><a href="#">Movers & Shakers</a></li>
+                  <hr>
+                  <li>Digital Content & Devices</li>
+                  <li class="item_space"><a href="#">Amazon Music<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li class="item_space"><a href="#">Kinder E-reader & Books<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li class="item_space"><a href="#">Amazon Appstore<i class="fa-solid fa-angle-right"></i></a></li>
+                  <hr>
+                  <li>Shop By Department</li>
+                  <li class="item_space"><a href="#">Electronics<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li class="item_space"><a href="#">Computers<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li class="item_space"><a href="#">Smart Home<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li class="item_space"><a href="#">Arts & Crafts<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li class="item_notspace"><a href="#">See All<i class="fa-solid fa-angle-down"></i></a></li>
+                  <li>Programs & Features</li>
+                  <li class="item_space"><a href="#">Gifts Cards<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li><a href="#">Shop By interest</a></li>
+                  <li class="item_space"><a href="#">Amazon Live<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li class="item_space"><a href="#">International Shopping<i class="fa-solid fa-angle-right"></i></a></li>
+                  <li class="item_notspace"><a href="#">See All<i class="fa-solid fa-angle-down"></i></a></li>
+                  <li>Help & Settings</li>
+                  <li><a href="#">Your Account</a></li>
+                  <li class="item_notspace"><a href="#"><i class="fa-solid fa-globe"></i>English</a></li>
+                  <li class="item_notspace"><a href="#"><i class="fa-solid fa-flag-usa"></i>United States</a></li>
+                  <li><a href="#">Customer Service</a></li>
+                  <li><a href="#">Sign in</a></li>
+                </ul>
+              </div>
+              <div class="sidebar_cancel"><i class="fa-solid fa-xmark"></i></div>
+            </div>
           </div>
+          <div class="medical_care"><a href="#">Medical Care<i class="fa-solid fa-caret-down"></i></a>
+            <div class="medical_care_homepage">
+              <p>Explore Medical Care</p>
+              <div class="homepage_main">
+                <div class="homepage_main1">
+                  <a href="#" class="homepage_main1_logo"><img src="https://m.media-amazon.com/images/G/01/HST/AHI/AHI6Tile/Desktop/PrimeOneMedical_RGB_SquidInk_-_Desktop4x.png" alt="logo"></a>
+                  <p class="homepage_main2_text"><a href="#">Get a car team on call, only 9$/mon width prime</a></p>
+                </div>
+                <div class="homepage_main2">
+                  <a href="#" class="homepage_main2_logo"><img src="https://m.media-amazon.com/images/G/01/HST/AHI/Desktop/SameSize/Pharmacy_logo_-_Desktop4x.png" alt="logo"></a>
+                  <p class="homepage_main2_text"><a href="#">Your medications, delivered</a></p>
+                </div>
+                <div class="homepage_main2">
+                  <a href="#" class="homepage_main2_logo"><img src="https://m.media-amazon.com/images/G/01/HST/AHI/Desktop/SameSize/Clinic_logo_-_Desktop4x.png" alt="logo"></a>
+                  <p class="homepage_main2_text"><a href="#">Your medications, delivered</a></p>
+                </div>
+              </div>
+              <p class="medical_care_footer"><a>See all health on Amazon</a></p>
+            </div> 
+          </div>
+          <div class="groceries">
+            <a href="#">Groceries<i class="fa-solid fa-caret-down"></i></a>
+            <div class="groceries_homepage">
+              <p class="groceries_homepage_title">Shop groceries</p>
+              <div class="groceries_homepage_main">
+                <div class="groceries_homepage_main1"><a href="#"><img src="https://m.media-amazon.com/images/I/31PgK9rqbzL._SY269_FMpng_.png" alt="logo"></a></div>
+                <div class="groceries_homepage_main1"><a href="#"><img src="https://m.media-amazon.com/images/I/41DJvurFQ-L._SY301_FMpng_.png" alt="logo"></a></div>
+              </div>
+              <p class="groceries_homepage_footer"><a href="#">Shop all grocerries on Amazon</a></p>
+            </div>
+          </div>
+          <div><a href="#">Best Seller</a></div>
+          <div><a href="#">Amazon Basics</a></div>
+          <div><a href="#">Today's Deals</a></div>
+          <div><a href="#">Registry</a></div>
+          <div><a href="#">New Releases</a></div>
+          <div><a href="#">Prime</a></div>
+          <div><a href="#">Custommer Service</a></div>
+          <div><a href="#">Music</a></div>
+          <div><a href="#">Books</a></div>
+          <div><a href="#">Pharmacy</a></div>
       </div>
       <div class="main_cover">
         <div class="main">
@@ -203,8 +266,78 @@
             <a href="#">See all deals</a>
           </div>
           </div>
-          <div class="box_1_link2"></div>
-          <div class="box_1_link3"></div>
+          <div class="box_1_link2">
+            <div class="title"><h3>Comfy loungewear</h3></div>
+            <div class="product2"><a href="#"><img src="https://images-na.ssl-images-amazon.com/images/W/MEDIAX_792452-T1/images/G/01/AMAZON_FASHION/2024/SITE_FLIPS/WIN24/GW/CC/Desktop/CategoryCard_d_2x_WinterFlip24_JAN_Loungewear._SY608_CB572319008_.jpg" alt="images"></a></div>
+            <div class="connect"><a href="#">Shop now</a></div>
+          </div>
+          <div class="box_1_link3">
+            <div class="title">
+                <h3>Winter Sale deals for your home</h3>
+              </div>
+              <div class="product">
+                <div class="product_detail">
+              <div class="product_image">
+                <a
+                  href="https://www.amazon.com/All-New-Echo-Auto-release-Alexa/dp/B09X27YPS1/?_encoding=UTF8&pd_rd_w=u3fF1&content-id=amzn1.sym.bbee96d3-c006-4999-9360-064c352459d1&pf_rd_p=bbee96d3-c006-4999-9360-064c352459d1&pf_rd_r=97VT9023C4ENZYFWHRPW&pd_rd_wg=OeG24&pd_rd_r=240631c4-8b4b-46c1-94cf-a1f558cd6126&ref_=pd_gw_deals_m1_t1"
+                  ><img
+                    class="size_image11"
+                    src="https://m.media-amazon.com/images/I/71uL4Qxw1gL._AC_SY290_.jpg"
+                    alt="all new Echo buds"
+                /></a>
+              </div>
+              <div class="saveoff">
+                <span class="save_off">19% off</span>
+                <span class="deal">Deal</span>
+              </div>
+            </div>
+            <div class="product_detail">
+              <div class="product_image">
+                <a href="#"
+                  ><img
+                    class="size_image2"
+                    src="https://m.media-amazon.com/images/I/81P58vm-ZeL._AC_SY290_.jpg"
+                    alt="all new Echo buds"
+                /></a>
+              </div>
+              <div class="saveoff">
+                <span class="save_off">40% off</span>
+                <span class="deal">Deal</span>
+              </div>
+            </div>
+            <div class="product_detail">
+              <div class="product_image">
+                <a href="#"
+                  ><img
+                    class="size_image33"
+                    src="https://m.media-amazon.com/images/I/71n-9t9u71L._AC_SY290_.jpg"
+                    alt="all new Echo buds"
+                /></a>
+              </div>
+              <div class="saveoff">
+                <span class="save_off">10% off</span>
+                <span class="deal">Deal</span>
+              </div>
+            </div>
+            <div class="product_detail">
+              <div class="product_image">
+                <a href="#"
+                  ><img
+                    class="size_image44"
+                    src="https://m.media-amazon.com/images/I/71JpKpi4aRL._AC_SY290_.jpg"
+                    alt="all new Echo buds"
+                /></a>
+              </div>
+              <div class="saveoff">
+                <span class="save_off">39% off</span>
+                <span class="deal">Deal</span>
+              </div>
+            </div>
+          </div>
+          <div class="connect">
+            <a href="#">See all deals</a>
+          </div>
+          </div>
           <div class="box_1_link4">
             <div class="title">
             <h3>Sign in for the best experience</h3>
@@ -216,21 +349,200 @@
             >
           </div>
           </div>
-          <div class="box_1_link5"></div>   
+          <div class="box_1_link5">
+            <a href="#"><img src="https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/913dc413-35bd-4b0c-a615-72f4be67388e.jpg"></a>
+          </div>   
         </div>
-        <div class="box2"></div>
-        <div class="box3"></div>
+        <div class="box_2">
+          <div class="box_2_link1">
+            <div class="title"><h3>Top Deal</h3></div>
+            <div class="product3">
+              <a href="#"><img src="https://m.media-amazon.com/images/I/31f3bj9o63L._AC_SY460_.jpg" alt="images"></a>
+              <div class="saveoff">
+                <span class="save_off">39% off</span>
+                <span class="deal">Deal</span>
+            </div>
+            <p class="title_p"><a href="#">Fire TV Devices</a></p>
+            </div>
+            <div class="connect"><a href="#">Shop now</a></div>
+          </div>
+          <div class="box_2_link2">
+            <div class="title">
+                <h3>Resort-ready styles</h3>
+              </div>
+              <div class="product">
+                <div class="product_detail">
+              <div class="product_image">
+                <a
+                  href="https://www.amazon.com/All-New-Echo-Auto-release-Alexa/dp/B09X27YPS1/?_encoding=UTF8&pd_rd_w=u3fF1&content-id=amzn1.sym.bbee96d3-c006-4999-9360-064c352459d1&pf_rd_p=bbee96d3-c006-4999-9360-064c352459d1&pf_rd_r=97VT9023C4ENZYFWHRPW&pd_rd_wg=OeG24&pd_rd_r=240631c4-8b4b-46c1-94cf-a1f558cd6126&ref_=pd_gw_deals_m1_t1"
+                  ><img
+                    class="size_image11"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2024/LuxuryStores/NewYear/QuadCard/B1_LS_Resortwear_d_QuadCard_1x._SY116_CB570619356_.jpg"
+                    alt="all new Echo buds"
+                /></a>
+              </div>
+             <p class="title_p1"><a href="#">Dresses</a></p>
+            </div>
+            <div class="product_detail">
+              <div class="product_image">
+                <a href="#"
+                  ><img
+                    class="size_image2"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2024/LuxuryStores/NewYear/QuadCard/B2_LS_Resortwear_d_QuadCard_1x._SY116_CB570619356_.jpg"
+                    alt="all new Echo buds"
+                /></a>
+              </div>
+              <p class="title_p1"><a href="#">Swim</a></p>
+            </div>
+            <div class="product_detail">
+              <div class="product_image">
+                <a href="#"
+                  ><img
+                    class="size_image333"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2024/LuxuryStores/NewYear/QuadCard/B3_LS_Resortwear_d_QuadCard_1x._SY116_CB570619356_.jpg"
+                    alt="all new Echo buds"
+                /></a>
+              </div>
+           <p class="title_p1"><a href="#">Shoes</a></p>
+            </div>
+            <div class="product_detail">
+              <div class="product_image">
+                <a href="#"
+                  ><img
+                    class="size_image44"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2024/LuxuryStores/NewYear/QuadCard/B4_LS_Resortwear_d_QuadCard_1x._SY116_CB570619356_.jpg"
+                    alt="all new Echo buds"
+                /></a>
+              </div>
+              <p class="title_p1"><a href="#">Bags</a></p>
+            </div>
+          </div>
+          <div class="connect">
+            <a href="#">Explore more from Luxury Stores</a>
+          </div>
+          </div>
+          <div class="box_2_link3">
+            <div class="title"><h3>Chill-proof styles</h3></div>
+            <div class="product2"><a href="#"><img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2024/SITE_FLIPS/WIN24/GW/CC/Desktop/CategoryCard_d_2x_WinterFlip24_JAN_Puffers._SY608_CB572283168_.jpg" alt="images"></a></div>
+            <div class="connect"><a href="#">Shop now</a></div>
+          </div>
+          <div class="box_2_link4">
+             <div class="title">
+                <h3>Resort-ready styles</h3>
+              </div>
+              <div class="product">
+                <div class="product_detail">
+              <div class="product_image">
+                <a
+                  href="https://www.amazon.com/All-New-Echo-Auto-release-Alexa/dp/B09X27YPS1/?_encoding=UTF8&pd_rd_w=u3fF1&content-id=amzn1.sym.bbee96d3-c006-4999-9360-064c352459d1&pf_rd_p=bbee96d3-c006-4999-9360-064c352459d1&pf_rd_r=97VT9023C4ENZYFWHRPW&pd_rd_wg=OeG24&pd_rd_r=240631c4-8b4b-46c1-94cf-a1f558cd6126&ref_=pd_gw_deals_m1_t1"
+                  ><img
+                    class="size_image11"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2024/LuxuryStores/NewYear/QuadCard/A1_LS_ColdWeather_d_QuadCard_1x._SY116_CB570619356_.jpg"
+                    alt="all new Echo buds"
+                /></a>
+              </div>
+             <p class="title_p1"><a href="#">Coats</a></p>
+            </div>
+            <div class="product_detail">
+              <div class="product_image">
+                <a href="#"
+                  ><img
+                    class="size_image2"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2024/LuxuryStores/NewYear/QuadCard/A2_LS_ColdWeather_d_QuadCard_1x._SY116_CB570619356_.jpg"
+                    alt="all new Echo buds"
+                /></a>
+              </div>
+              <p class="title_p1"><a href="#">Skincare</a></p>
+            </div>
+            <div class="product_detail">
+              <div class="product_image">
+                <a href="#"
+                  ><img
+                    class="size_image333"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2024/LuxuryStores/NewYear/QuadCard/A3_LS_ColdWeather_d_QuadCard_1x._SY116_CB570619356_.jpg"
+                    alt="all new Echo buds"
+                /></a>
+              </div>
+           <p class="title_p1"><a href="#">Bags</a></p>
+            </div>
+            <div class="product_detail">
+              <div class="product_image">
+                <a href="#"
+                  ><img
+                    class="size_image44"
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2024/LuxuryStores/NewYear/QuadCard/A4_LS_ColdWeather_d_QuadCard_1x._SY116_CB570619356_.jpg"
+                    alt="all new Echo buds"
+                /></a>
+              </div>
+              <p class="title_p1"><a href="#">Shoes</a></p>
+            </div>
+          </div>
+          <div class="connect">
+            <a href="#">Explore more from Luxury Stores</a>
+          </div>
+          </div>
+        </div>
+        <div class="box_3"></div>
       </div>
       </div>
       <div class="footer">
-         <div class="box_1">
-          <div class="box_1_link1"></div>
-          <div class="box_1_link2"></div>
-          <div class="box_1_link3"></div>
-          <div class="box_1_link4"></div>
-          <div class="box_1_link5"></div>   
+        <div class="footer_header"><a href="#">Back to top</a></div>
+        <div class="footer_content">
+          <div class="footer_content1">
+            <p>Get to Know Us</p>
+            <a href="#">Careers</a>
+            <a href="#">Amazon</a>
+            <a href="#">Newsletter</a>
+            <a href="#">About Amazon</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Sustainability</a>
+            <a href="#">Press Center</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Amazon Devices</a>
+            <a href="#">Amazon Science</a>
+          </div>
+          <div class="footer_content2">
+             <p>Make Money with Us</p>
+            <a href="#">Start Selling with Amazon</a>
+            <a href="#">Sell apps on Amazon</a>
+            <a href="#">Supply to Amazon</a>
+            <a href="#">Protect & Build Your Brand</a>
+            <a href="#">Become an Affiliate</a>
+            <a href="#">Become a Delivery Driver Business</a>
+            <a href="#">Advertise Your Products</a>
+            <a href="#">Self-Publish with Us</a>
+            <a href="#">Host an Amazon Hub</a>
+            <a href="#">›See More Ways to Make Money</a>
+          </div>
+          <div class="footer_content3">
+            <p>Amazon Payment Products</p>
+            <a href="#">Amazon Visa</a>
+            <a href="#">Amazon Store Card</a>
+            <a href="#">Amazon Secured Card</a>
+            <a href="#">Amazon Business Card</a>
+            <a href="#">Shop with Points</a>
+            <a href="#">Credit Card Marketplace</a>
+            <a href="#">Reload Your Balance</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Amazon Currency Converter</a>
+          </div>
+          <div class="footer_content4">
+            <p>Let Us Help You</p>
+            <a href="#">Your Account</a>
+            <a href="#">Your Orders</a>
+            <a href="#">Shipping Rates & Policies</a>
+            <a href="#">Amazon Prime</a>
+            <a href="#">Returns & Replacements</a>
+            <a href="#">Manage Your Content and Devices</a>
+            <a href="#">Recalls and Product Safety Alerts</a>
+            <a href="#">Help</a>
+          </div>
         </div>
-      </div>
+        <div class="footer_end">
+          <div class="footer_end_logo"><img src="assets/images/logo.png"></div>
+          <div class="footer_end_EN"><i class="fa-solid fa-globe"></i>English</div>
+          <div class="footer_end_USA"><i class="fa-solid fa-flag-usa"></i>United States</div>
+        </div>
     </div>
   </body>
 </html>
